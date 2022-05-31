@@ -24,6 +24,11 @@ const movies = [
       "https://www.themoviedb.org/t/p/w440_and_h660_face/1BIoJGKbXjdFDAqUEiA2VHqkK1Z.jpg",
   },
   {
+    title: "Encanto",
+    image:
+      "https://image.tmdb.org/t/p/w440_and_h660_face/4j0PNHkMr5ax3IA8tjtxcmPU3QT.jpg",
+  },
+  {
     title: "Turning Red",
     image:
       "https://www.themoviedb.org/t/p/w440_and_h660_face/qsdjk9oAKSQMWs0Vt5Pyfh6O4GZ.jpg",
