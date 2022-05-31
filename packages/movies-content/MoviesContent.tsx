@@ -1,6 +1,6 @@
 import React from "react";
 import { MovieCard } from "card";
-import { Grid } from "@mantine/core";
+import { Grid, Title } from "@mantine/core";
 
 const movies = [
   {
@@ -46,11 +46,14 @@ const movies = [
 ];
 
 const MoviesContent = () => (
-  <Grid sx={{ gap: "1rem" }}>
-    {movies.map((movie) => (
-      <MovieCard {...movie} key={movie.title} showAddButton />
-    ))}
-  </Grid>
+  <>
+    <Title>Movies</Title>
+    <Grid sx={{ gap: "1rem" }}>
+      {movies.map((movie) => (
+        <MovieCard {...movie} key={movie.title} showAddButton />
+      ))}
+    </Grid>
+  </>
 );
 
 export default MoviesContent;
