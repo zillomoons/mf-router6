@@ -1,12 +1,12 @@
 import React from "react";
 import { AppShell } from "ui";
-import { MoviesContent } from "movies-content";
+import {MoviesContent} from "movies-content";
 import { Playlist } from "playlist-content";
 
 function App() {
   return (
     <AppShell
-      title="Movies"
+      title="Playlist"
       routes={[
         {
           path: "/",
@@ -27,7 +27,7 @@ function App() {
           label: "Playlist",
         },
       ]}
-      colorScheme="light"
+      colorScheme="dark"
     />
   );
 }
